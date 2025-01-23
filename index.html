@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidsCool - Where Learning Meets Fun</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen bg-gradient-to-b from-light-blue to-white">
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <img src="/placeholder.svg" alt="KidsCool Logo" class="w-12 h-12">
+                <h1 class="text-2xl font-bold text-main-blue">KidsCool</h1>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Home</a>
+                <a href="#about" class="text-gray-700 hover:text-main-blue transition-colors duration-300">About</a>
+                <a href="#programs" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Programs</a>
+                <a href="#facilities" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Facilities</a>
+                <a href="shop.html" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Shop</a>
+                <a href="#contact" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <div class="hidden lg:flex items-center space-x-2">
+                    <span class="text-gray-600">📞</span>
+                    <span class="text-sm">+1 234 567 8900</span>
+                </div>
+                <div class="flex space-x-2">
+                    <a href="#" class="text-gray-600 hover:text-main-blue transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-main-blue transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-main-blue transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+                <button class="bg-accent-orange text-white px-4 py-2 rounded-full font-bold shadow-lg hover:bg-orange-500 transition-colors duration-300">
+                    Enquire Now
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <section id="hero" class="relative h-screen overflow-hidden">
+            <div id="hero-image" class="absolute inset-0 w-full h-full object-cover"></div>
+            <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+            <div class="absolute inset-0 flex items-center justify-center">
+                <div class="text-center text-white">
+                    <h1 class="text-5xl md:text-7xl font-bold mb-4">Welcome to KidsCool</h1>
+                    <p class="text-xl md:text-2xl mb-8">Where Learning Meets Fun!</p>
+                    <button id="know-more-btn" class="bg-main-blue text-white px-8 py-3 rounded-full font-bold text-lg relative overflow-hidden hover:bg-blue-600 transition-colors duration-300">
+                        Know More
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-light-blue">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">About Us</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6 relative overflow-hidden">
+                        <div class="text-4xl mb-4">🎯</div>
+                        <h3 class="text-2xl font-bold mb-2">Our Mission</h3>
+                        <p class="text-gray-600">To provide a nurturing environment where children can learn, grow, and discover their potential.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 relative overflow-hidden">
+                        <div class="text-4xl mb-4">👁️</div>
+                        <h3 class="text-2xl font-bold mb-2">Our Vision</h3>
+                        <p class="text-gray-600">To be the leading educational institution that inspires a lifelong love for learning in every child.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 relative overflow-hidden">
+                        <div class="text-4xl mb-4">💖</div>
+                        <h3 class="text-2xl font-bold mb-2">Our Values</h3>
+                        <p class="text-gray-600">Creativity, Curiosity, Compassion, and Community - the pillars that guide our approach to education.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="programs" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">Special Programs</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg shadow-lg p-6 text-white overflow-hidden">
+                        <div class="text-6xl mb-4">🔬</div>
+                        <h3 class="text-2xl font-bold mb-2">STEM Education</h3>
+                        <p class="text-sm opacity-80">Discover the wonders of STEM education through our engaging and interactive program.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-yellow-400 to-orange-500 rounded-lg shadow-lg p-6 text-white overflow-hidden">
+                        <div class="text-6xl mb-4">🎨</div>
+                        <h3 class="text-2xl font-bold mb-2">Arts & Crafts</h3>
+                        <p class="text-sm opacity-80">Discover the wonders of arts and crafts through our engaging and interactive program.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-green-400 to-teal-500 rounded-lg shadow-lg p-6 text-white overflow-hidden">
+                        <div class="text-6xl mb-4">🎵</div>
+                        <h3 class="text-2xl font-bold mb-2">Music & Dance</h3>
+                        <p class="text-sm opacity-80">Discover the wonders of music and dance through our engaging and interactive program.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-pink-400 to-red-500 rounded-lg shadow-lg p-6 text-white overflow-hidden">
+                        <div class="text-6xl mb-4">🗣️</div>
+                        <h3 class="text-2xl font-bold mb-2">Language Immersion</h3>
+                        <p class="text-sm opacity-80">Discover the wonders of language immersion through our engaging and interactive program.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="facilities" class="py-20 bg-gray-100 overflow-hidden">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">Our Facilities</h2>
+                <div id="facilities-carousel" class="flex overflow-x-scroll snap-x snap-mandatory pb-8" style="scrollbar-width: none; -ms-overflow-style: none;">
+                    <div class="flex-shrink-0 w-80 h-80 mx-4 rounded-3xl overflow-hidden snap-center" style="background-color: #FFB84D;">
+                        <div class="h-full flex flex-col items-center justify-center text-white p-6">
+                            <div class="text-6xl mb-4">🍎</div>
+                            <h3 class="text-2xl font-bold mb-2">Healthy Foods</h3>
+                            <p class="text-center">Experience our state-of-the-art healthy foods designed for optimal learning and comfort.</p>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 w-80 h-80 mx-4 rounded-3xl overflow-hidden snap-center" style="background-color: #66B2FF;">
+                        <div class="h-full flex flex-col items-center justify-center text-white p-6">
+                            <div class="text-6xl mb-4">💻</div>
+                            <h3 class="text-2xl font-bold mb-2">Smart Classes</h3>
+                            <p class="text-center">Experience our state-of-the-art smart classes designed for optimal learning and comfort.</p>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 w-80 h-80 mx-4 rounded-3xl overflow-hidden snap-center" style="background-color: #7FD1B9;">
+                        <div class="h-full flex flex-col items-center justify-center text-white p-6">
+                            <div class="text-6xl mb-4">🚌</div>
+                            <h3 class="text-2xl font-bold mb-2">Bus Facilities</h3>
+                            <p class="text-center">Experience our state-of-the-art bus facilities designed for optimal learning and comfort.</p>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 w-80 h-80 mx-4 rounded-3xl overflow-hidden snap-center" style="background-color: #FF8A80;">
+                        <div class="h-full flex flex-col items-center justify-center text-white p-6">
+                            <div class="text-6xl mb-4">⚽</div>
+                            <h3 class="text-2xl font-bold mb-2">Playing Ground</h3>
+                            <p class="text-center">Experience our state-of-the-art playing ground designed for optimal learning and comfort.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">What People Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <p class="text-gray-600 mb-4">KidsCool has been a game-changer for my child's education. The interactive approach and dedicated teachers have made learning fun and effective.</p>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full mr-4"></div>
+                            <div>
+                                <h3 class="font-bold">Sarah Johnson</h3>
+                                <p class="text-sm text-gray-500">Parent</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <p class="text-gray-600 mb-4">I'm impressed by the innovative curriculum at KidsCool. It's clear that they prioritize holistic development and critical thinking skills.</p>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full mr-4"></div>
+                            <div>
+                                <h3 class="font-bold">Michael Chen</h3>
+                                <p class="text-sm text-gray-500">Education Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <p class="text-gray-600 mb-4">My time at KidsCool laid the foundation for my academic success. The skills I learned there continue to benefit me in high school and beyond.</p>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full mr-4"></div>
+                            <div>
+                                <h3 class="font-bold">Emily Rodriguez</h3>
+                                <p class="text-sm text-gray-500">Former Student</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="statistics" class="py-20 bg-gradient-to-r from-main-blue to-soft-purple text-white relative overflow-hidden">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">Our Achievements</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white bg-opacity-20 rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-2">😊</div>
+                        <div class="text-4xl font-bold mb-2" data-count="1000">0</div>
+                        <div class="text-lg">Happy Students</div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-2">👨‍🏫</div>
+                        <div class="text-4xl font-bold mb-2" data-count="50">0</div>
+                        <div class="text-lg">Certified Teachers</div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-2">🏆</div>
+                        <div class="text-4xl font-bold mb-2" data-count="25">0</div>
+                        <div class="text-lg">Years of Excellence</div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-2">🎭</div>
+                        <div class="text-4xl font-bold mb-2" data-count="30">0</div>
+                        <div class="text-lg">Extracurricular Activities</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="visual-collage" class="py-20 bg-light-blue">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">Life at KidsCool</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Students in classroom" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white text-center px-4">Students in classroom</p>
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/placeholder.svg?height=400&width=300" alt="Art class" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white text-center px-4">Art class</p>
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/placeholder.svg?height=300&width=300" alt="Sports activity" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white text-center px-4">Sports activity</p>
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/placeholder.svg?height=400&width=400" alt="Science experiment" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white text-center px-4">Science experiment</p>
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Music lesson" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white text-center px-4">Music lesson</p>
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/placeholder.svg?height=400&width=300" alt="Outdoor learning" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white text-center px-4">Outdoor learning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sports-creative" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">Sports & Creative Activities</h2>
+                <div class="flex flex-wrap justify-center gap-12">
+                    <div class="w-80 bg-white shadow-lg rounded-lg overflow-hidden">
+                        <div class="relative h-48 bg-blue-400 rounded-t-full overflow-hidden">
+                            <img src="/api/placeholder/300/200" alt="Swimming" class="w-full h-full object-cover mix-blend-overlay">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <span class="text-6xl">🏊‍♂️</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-3">Swimming</h3>
+                            <p class="text-gray-600">Learn swimming techniques in our safe and fun environment</p>
+                        </div>
+                    </div>
+                    <div class="w-80 bg-white shadow-lg rounded-lg overflow-hidden">
+                        <div class="relative h-48 bg-yellow-400 rounded-t-lg overflow-hidden">
+                            <img src="/api/placeholder/300/200" alt="Creativity" class="w-full h-full object-cover mix-blend-overlay">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <span class="text-6xl">🎨</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-3">Creativity</h3>
+                            <p class="text-gray-600">Express yourself through art, crafts, and creative projects</p>
+                        </div>
+                    </div>
+                    <div class="w-80 bg-white shadow-lg rounded-lg overflow-hidden">
+                        <div class="relative h-48 bg-green-400 clip-path-triangle overflow-hidden">
+                            <img src="/api/placeholder/300/200" alt="Cycling" class="w-full h-full object-cover mix-blend-overlay">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <span class="text-6xl">🚴‍♂️</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-3">Cycling</h3>
+                            <p class="text-gray-600">Enjoy outdoor cycling adventures with expert guidance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-200 pt-24 pb-10 relative">
+        <div class="absolute top-0 left-0 w-full">
+            <svg class="text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
+                <path d="M0,96C48,96,96,96,144,96C192,96,240,96,288,96C336,96,384,96,432,96C480,96,528,96,576,96C624,96,672,96,720,96C768,96,816,96,864,96C912,96,960,96,1008,96C1056,96,1104,96,1152,96C1200,96,1248,96,1296,96C1344,96,1392,96,1440,96L1440,0L0,0Z"></path>
+            </svg>
+        </div>
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div class="space-y-4">
+                    <h2 class="text-3xl font-bold text-white">KidsCool</h2>
+                    <p class="text-gray-400">Where learning meets fun and creativity flourishes.</p>
+                    <div class="flex gap-4 pt-2">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <span class="text-2xl">📱</span>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <span class="text-2xl">📷</span>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <span class="text-2xl">📨</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <nav aria-label="Footer navigation" class="space-y-4">
+                    <h3 class="text-xl font-bold text-white">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#programs" class="text-gray-400 hover:text-white transition-colors">Programs</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold text-white">Contact Us</h3>
+                    <address class="not-italic space-y-3 text-gray-400">
+                        <p>123 Education Lane</p>
+                        <p>Learningville, ED 12345</p>
+                        <p>
+                            <a href="tel:+11234567890" class="hover:text-white transition-colors">
+                                (123) 456-7890
+                            </a>
+                        </p>
+                        <p>
+                            <a href="mailto:info@kidscool.com" class="hover:text-white transition-colors">
+                                info@kidscool.com
+                            </a>
+                        </p>
+                    </address>
+                </div>
+
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold text-white">Newsletter</h3>
+                    <p class="text-gray-400">Stay updated with our latest news and events!</p>
+                    <form class="space-y-3">
+                        <div class="relative">
+                            <input
+                                id="email-input"
+                                type="email"
+                                placeholder="Your email"
+                                class="w-full px-4 py-2 bg-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                required
+                                aria-label="Email address for newsletter"
+                            >
+                        </div>
+                        <button
+                            type="submit"
+                            class="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        >
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="mt-16 pt-8 border-t border-gray-700 text-center text-gray-400">
+                <p>&copy; 2023 KidsCool. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
