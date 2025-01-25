@@ -15,12 +15,23 @@
                 <img src="/placeholder.svg" alt="KidsCool Logo" class="w-12 h-12">
                 <h1 class="text-2xl font-bold text-main-blue">KidsCool</h1>
             </div>
-            <nav class="hidden md:flex space-x-6">
-                <a href="#" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Home</a>
-                <a href="#about" class="text-gray-700 hover:text-main-blue transition-colors duration-300">About</a>
+          <nav class="hidden md:flex space-x-6">
+                <!-- Home -->
+                <a href="{{ routes.root }}" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Home</a>
+            
+                <!-- About -->
+                <a href="{{ pages['about'].url }}" class="text-gray-700 hover:text-main-blue transition-colors duration-300">About</a>
+            
+                <!-- Programs (Anchor Link within the Current Page) -->
                 <a href="#programs" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Programs</a>
+            
+                <!-- Facilities (Anchor Link within the Current Page) -->
                 <a href="#facilities" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Facilities</a>
-                <a href="shop.html" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Shop</a>
+            
+                <!-- Shop -->
+                <a href="/collections/all" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Shop</a>
+            
+                <!-- Contact (Anchor Link or Specific Page) -->
                 <a href="#contact" class="text-gray-700 hover:text-main-blue transition-colors duration-300">Contact</a>
             </nav>
             <div class="flex items-center space-x-4">
