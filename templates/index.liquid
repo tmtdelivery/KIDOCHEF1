@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KidsCool - Where Learning Meets Fun</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="{{ 'styles.css' | asset_url }}">
 </head>
 <body class="min-h-screen bg-gradient-to-b from-light-blue to-white">
     <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
@@ -218,37 +219,37 @@
                 <h2 class="text-4xl font-bold text-center mb-12">Life at KidsCool</h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     <div class="relative overflow-hidden rounded-lg shadow-lg">
-                        <img src="/placeholder.svg?height=300&width=400" alt="Students in classroom" class="w-full h-full object-cover">
+                        <img src="{{ '/placeholder.svg?height=300&width=400' | asset_url }}" alt="Students in classroom" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                             <p class="text-white text-center px-4">Students in classroom</p>
                         </div>
                     </div>
                     <div class="relative overflow-hidden rounded-lg shadow-lg">
-                        <img src="/placeholder.svg?height=400&width=300" alt="Art class" class="w-full h-full object-cover">
+                        <img src="{{ '/placeholder.svg?height=400&width=300' | asset_url }}" alt="Art class" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                             <p class="text-white text-center px-4">Art class</p>
                         </div>
                     </div>
                     <div class="relative overflow-hidden rounded-lg shadow-lg">
-                        <img src="/placeholder.svg?height=300&width=300" alt="Sports activity" class="w-full h-full object-cover">
+                        <img src="{{ '/placeholder.svg?height=300&width=300 ' | asset_url }}" alt="Sports activity" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                             <p class="text-white text-center px-4">Sports activity</p>
                         </div>
                     </div>
                     <div class="relative overflow-hidden rounded-lg shadow-lg">
-                        <img src="/placeholder.svg?height=400&width=400" alt="Science experiment" class="w-full h-full object-cover">
+                        <img src=" {{'/placeholder.svg?height=400&width=400' | asset_url }}" alt="Science experiment" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                             <p class="text-white text-center px-4">Science experiment</p>
                         </div>
                     </div>
                     <div class="relative overflow-hidden rounded-lg shadow-lg">
-                        <img src="/placeholder.svg?height=300&width=400" alt="Music lesson" class="w-full h-full object-cover">
+                        <img src="{{ '/placeholder.svg?height=300&width=400' | asset_url }}" alt="Music lesson" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                             <p class="text-white text-center px-4">Music lesson</p>
                         </div>
                     </div>
                     <div class="relative overflow-hidden rounded-lg shadow-lg">
-                        <img src="/placeholder.svg?height=400&width=300" alt="Outdoor learning" class="w-full h-full object-cover">
+                        <img src="  {{ '/placeholder.svg?height=400&width=300' | asset_url }}" alt="Outdoor learning" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                             <p class="text-white text-center px-4">Outdoor learning</p>
                         </div>
@@ -263,7 +264,7 @@
                 <div class="flex flex-wrap justify-center gap-12">
                     <div class="w-80 bg-white shadow-lg rounded-lg overflow-hidden">
                         <div class="relative h-48 bg-blue-400 rounded-t-full overflow-hidden">
-                            <img src="/api/placeholder/300/200" alt="Swimming" class="w-full h-full object-cover mix-blend-overlay">
+                            <img src="  {{ '/api/placeholder/300/200' | asset_url }}" alt="Swimming" class="w-full h-full object-cover mix-blend-overlay">
                             <div class="absolute inset-0 flex items-center justify-center">
                                 <span class="text-6xl">🏊‍♂️</span>
                             </div>
@@ -275,7 +276,7 @@
                     </div>
                     <div class="w-80 bg-white shadow-lg rounded-lg overflow-hidden">
                         <div class="relative h-48 bg-yellow-400 rounded-t-lg overflow-hidden">
-                            <img src="/api/placeholder/300/200" alt="Creativity" class="w-full h-full object-cover mix-blend-overlay">
+                            <img src="  {{ '/api/placeholder/300/200' | asset_url }}" alt="Creativity" class="w-full h-full object-cover mix-blend-overlay">
                             <div class="absolute inset-0 flex items-center justify-center">
                                 <span class="text-6xl">🎨</span>
                             </div>
@@ -287,7 +288,7 @@
                     </div>
                     <div class="w-80 bg-white shadow-lg rounded-lg overflow-hidden">
                         <div class="relative h-48 bg-green-400 clip-path-triangle overflow-hidden">
-                            <img src="/api/placeholder/300/200" alt="Cycling" class="w-full h-full object-cover mix-blend-overlay">
+                            <img src="  {{ '/api/placeholder/300/200' | asset_url }}" alt="Cycling" class="w-full h-full object-cover mix-blend-overlay">
                             <div class="absolute inset-0 flex items-center justify-center">
                                 <span class="text-6xl">🚴‍♂️</span>
                             </div>
@@ -384,6 +385,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    {{ 'script.js' | asset_url | script_tag }}
 </body>
 </html>
